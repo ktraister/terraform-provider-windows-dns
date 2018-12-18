@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elliottsam/winrm-dns-client/dns"
 	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/ktraister/winrm-dns-client/dns"
 )
 
 var mutex = &sync.Mutex{}
